@@ -22,6 +22,7 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
     //my config
+    "composite": false,
     "allowJs": true,
     "baseUrl": ".",
     "paths": {
@@ -30,15 +31,21 @@
       ]
     },
     "types": [
-      "vite-plugin-svgr/client"
+      "vite-plugin-svgr/client",
+      "auto-imports.d.ts"
     ],
   },
   "include": [
-    "src"
+    "src",
+    "src/config/autoimport.js",
+    "auto-imports.d.ts"
   ],
   "references": [
     {
-      "path": "./tsconfig.node.json"
+      "path": [
+        "./tsconfig.node.json",
+        "auto-imports.d.ts"
+      ]
     }
   ]
 }

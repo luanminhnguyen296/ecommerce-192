@@ -1,12 +1,13 @@
 import SectionBannerMain from '@/components/Home/SectionBannerMain'
 import SectionSubcribeEmail from '@/components/Home/SectionSubcribeEmail'
-import React from 'react'
 
-export default function Home() {
+function Home() {
    return (
       <div>
+         Helloo
          <SectionBannerMain />
          <SectionSubcribeEmail />
       </div>
    )
 }
+export default Home
