@@ -23,11 +23,11 @@ function getComponentImports(exportDefault = true) {
       },
       {
          pattern: './src/layouts/*.{tsx,jsx}',
-         omit: './src/'
+         omit: './src/layouts'
       },
       {
          pattern: './src/pages/*.{tsx,jsx}',
-         omit: './src/'
+         omit: './src'
       }
    ]
 
@@ -64,9 +64,7 @@ function getComponentImports(exportDefault = true) {
 
       return {
          [fromPath]: [
-            // [removeExtension(entry.name), removeExtension(componentName)]
             [exportDefault ? 'default' : removeExtension(entry.name), removeExtension(componentName)]
-            // [removeExtension(componentName), exportDefault ? 'default' : removeExtension(entry.name)]
          ]
       }
    }))

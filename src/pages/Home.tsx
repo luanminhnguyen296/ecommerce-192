@@ -1,10 +1,9 @@
-import SectionBannerMain from '@/components/Home/SectionBannerMain'
-import SectionSubcribeEmail from '@/components/Home/SectionSubcribeEmail'
+import SectionBannerMain from '@/components/home/SectionBannerMain'
+import SectionSubcribeEmail from '@/components/home/SectionSubcribeEmail'
 
 function Home() {
    return (
       <div>
-         Helloo
          <SectionBannerMain />
          <SectionSubcribeEmail />
       </div>
