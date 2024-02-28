@@ -5,6 +5,7 @@ export default function SectionBannerMain() {
    return (
       <div>
          SectionBannerMain
+         Edit
          <Button>Hello</Button>
          <Carousel
             additionalTransfrom={0}
