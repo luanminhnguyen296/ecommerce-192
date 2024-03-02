@@ -1,3 +1,11 @@
+
+@mport '@fontsource/poppins/200.css';
+@mport '@fontsource/poppins/400.css';
+@mport '@fontsource/poppins/600.css';
+@mport '@fontsource/poppins/700.css';
+@mport '@fontsource/poppins/900.css';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+

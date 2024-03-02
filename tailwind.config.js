@@ -6,8 +6,17 @@ export default {
     "node_modules/flowbite-react/lib/esm/**/*.js",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primary: '#0ffe8e',
+        'gray-store': '#F5F5F7'
+      }
+    },
+    fontFamily: {
+      sans: ['Poppins', 'sans-serif'],
+    },
   },
+
   plugins: [
     import('flowbite/plugin'),
   ],
